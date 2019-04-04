@@ -25,7 +25,7 @@ j = 0
 
 for i in data:
     if j == 8:
-        bitstring +=
+        bitstring += " "
         j = 0
     if ord(i) == 45:
         bitstring += "1"

@@ -4,9 +4,9 @@
 
 In the beggining we get a *WAV* file which can't be read. 
 
-First with stegano : **STEGHIDE** 
+First thing to do with stegano : **STEGHIDE** 
 
-We can see something is hidden is the file put there is a passphrases so let's go find it
+We can see that something is hidden in the file but there is a passphrases, so let's find it out.
 
 Basic technique, use strings on file, at the end we can find : **1_4M_Str3ss3d_0ut**
 

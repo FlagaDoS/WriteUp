@@ -35,7 +35,7 @@ os.remove("./flag.txt")
 
 ```
 
-We know how RSA works: we have to choose two huge prime numbers $p,q$, to compute their product $n$, to choose an exponant $e$ such as ```Markdown $$$e < \varphi(n) \text{ and }gcd(e,\varphi(n)) = 1$$$```, where $\varphi(n)$ respresents the Euler's totient function. We have then to compute the inverse $d = e^{-1} \text{ mod } n$. 
+We know how RSA works: we have to choose two huge prime numbers $p,q$, to compute their product $n$, to choose an exponant $e$ such as $e < \varphi(n) \text{ and }gcd(e,\varphi(n)) = 1$, where $\varphi(n)$ respresents the Euler's totient function. We have then to compute the inverse $d = e^{-1} \text{ mod } n$. 
 
 To encrypt a message $m$, we just have to compute $m^e \text{ mod } n$, and to decrypt a message $c$, we have to compute $c^d \text{ mod } n$.
 

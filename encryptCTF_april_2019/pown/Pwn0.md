@@ -2,7 +2,7 @@
 
 ![pwn0_chall](../IMG/pwn0_chall.png)
 
-It's just a programme which ask : "How's the josh?" and answer : "Your josh is low! Bye!"
+It's just a programme which asks : "How's the josh?" and answer : "Your josh is low! Bye!"
 
 If we put many number we got : 
 

@@ -26,7 +26,7 @@ Second round, we get a png picture :
 
 On this picture, steghide give us nothing, no in metadata ...
 
-Recently a make a script to apply lsb stegano technique on picture which was useful to me, it makes 7 picture based on lsb technique, first picture with 1 lsb, second with 2 lsb etc... and on one picture we can see : 
+Recently I have made a script wich applies the lsb stegano technique on picture which was useful to me, it makes 7 picture based on lsb technique, first picture with 1 lsb, second with 2 lsb etc... and on one picture we can see : 
 
 ![stress_out_proof4](../IMG/stress_out_proof4.jpg)
 

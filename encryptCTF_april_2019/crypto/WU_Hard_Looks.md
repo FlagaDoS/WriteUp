@@ -2,7 +2,7 @@
 
 #### Written and solved by Balr0g404
 
-![Hard_looks](/home/audran/Documents/flagados/encryptCTF/Hard_looks.png)
+![Hard_looks](../IMG/Hard_looks.png)
 
 Well, this challenge **does** look hard ! I first though about a morse code, but this is not. 
 

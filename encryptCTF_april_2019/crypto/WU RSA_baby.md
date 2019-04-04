@@ -2,7 +2,7 @@
 
 #### Written and solved by Balr0g404
 
-![RSA_baby](/home/audran/Documents/flagados/encryptCTF/RSA_baby.png)
+![RSA_baby](../IMG/RSA_baby.png)
 
 For this challenge, we were given a script which has been used to encrypt a message with the **RSA algorithm**. The script is the following:
 

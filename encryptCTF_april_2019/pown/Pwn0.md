@@ -10,9 +10,9 @@ If we put many number we got :
 
 ![pwn0_proof2](../IMG/pwn0_proof2.png)
 
-so at index 80, we overwrite EIP registers.
+so at index 80, we overwrite EIP register.
 
-so we have our offset, need what's inject !
+so we have our offset, need what to inject !
 
 By dissasembling the main programme, we can see :
 

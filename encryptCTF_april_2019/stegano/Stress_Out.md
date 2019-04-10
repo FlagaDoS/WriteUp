@@ -4,9 +4,9 @@
 
 In the beggining we get a *WAV* file which can't be read. 
 
-First with stegano : **STEGHIDE** 
+First thing to do with stegano : **STEGHIDE** 
 
-We can see something is hidden is the file put there is a passphrases so let's go find it
+We can see that something is hidden in the file but there is a passphrases, so let's find it out.
 
 Basic technique, use strings on file, at the end we can find : **1_4M_Str3ss3d_0ut**
 
@@ -26,7 +26,7 @@ Second round, we get a png picture :
 
 On this picture, steghide give us nothing, no in metadata ...
 
-Recently a make a script to apply lsb stegano technique on picture which was useful to me, it makes 7 picture based on lsb technique, first picture with 1 lsb, second with 2 lsb etc... and on one picture we can see : 
+Recently I have made a script wich applies the lsb stegano technique on picture which was useful to me, it makes 7 picture based on lsb technique, first picture with 1 lsb, second with 2 lsb etc... and on one picture we can see : 
 
 ![stress_out_proof4](../IMG/stress_out_proof4.jpg)
 

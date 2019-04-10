@@ -6,7 +6,7 @@
 
 Here we can see it's hamming code(7,4) we just need to send the data which was transmitted 
 
-Mathematic are clearly not my strong but some algorithm exist, i didn't found code on github so i just take the JS code on :
+Mathematic is clearly not my main strengh but some algorithm exist, I didn't found code on github so I just take the JS code on :
 
 ```http
 https://toolmenow.com/34/Hamming(7,4)-Code-Calculator

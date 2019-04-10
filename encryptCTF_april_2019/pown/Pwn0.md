@@ -2,25 +2,25 @@
 
 ![pwn0_chall](../IMG/pwn0_chall.png)
 
-It's just a programme which ask : "How's the josh?" and answer : "Your josh is low! Bye!"
+It's just a programme which asks : "How's the josh?" and answer : "Your josh is low! Bye!"
 
 If we put many number we got : 
 
 ![pwn0_proof1](../IMG/pwn0_proof1.png)
 
-![pwn0_proof2](/home/taiqui/Documents/WriteUp/encryptCTF_april_2019/IMG/pwn0_proof2.png)
+![pwn0_proof2](../IMG/pwn0_proof2.png)
 
-so at index 80, we overwrite EIP registers.
+so at index 80, we overwrite EIP register.
 
-so we have our offset, need what's inject !
+so we have our offset, need what to inject !
 
-in disassemble main programme, we can see :
+By dissasembling the main programme, we can see :
 
 ![pwn0_proof3](../IMG/pwn0_proof3.png)
 
 so we just call the **movl** previous instruction.
 
-so our injection seems like : 
+so our injection looks like : 
 
 ```python
 offset = "A"*80
@@ -30,6 +30,7 @@ payload = "\x57\x85\x04\x08"
 ```bash
 python -c 'print offset+payload'|nc 104.154.106.182:1234
 and get the flag !
+```
 ![pwn0_proof4](../IMG/pwn0_proof4.png)
 
 

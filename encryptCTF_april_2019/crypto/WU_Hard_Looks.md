@@ -12,7 +12,7 @@ Let's assume that "-" is 1 and that "_" is 0. If we decode the beginning of the 
 
 However, since the flag has the format **encryptCTF{FLAG}**, we can easely guess what we should have at the beginning by encoding **encrypt** in binary. We then obtain for the first 8 bits **0011011000**.
 
-Good news, this is exactly the same as the one we found above, with **just two more 0s at the beginning** ! We can now write a python script to resolve the challenge:
+Good news, this is exactly the same as the one we found above, with **just two more 0s at the beginning** ! We can now write a python script to solve the challenge:
 
  ```python
 #!/usr/bin/python
@@ -25,7 +25,7 @@ j = 0
 
 for i in data:
     if j == 8:
-        bitstring +=
+        bitstring += " "
         j = 0
     if ord(i) == 45:
         bitstring += "1"

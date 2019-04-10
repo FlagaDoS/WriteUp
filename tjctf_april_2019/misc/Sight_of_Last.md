@@ -16,7 +16,7 @@ I make this script which run through the images, when he detects black pixel, it
 
 I remove coordinate which are ~equals and point which are not black pixel
 
-and I gate the flag ! 
+and I get the flag ! 
 
 ```text
 flag : tjctf{i5_th1s_c0mput3r_v1si0n?}

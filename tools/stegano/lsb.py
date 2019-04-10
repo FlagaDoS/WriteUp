@@ -121,7 +121,11 @@ if "-rgb" in fullcmd:
         print '[-] Error arguments -rgb '
         help()
         exit()
-
+else:
+    rgb_value.append('1')
+    rgb_value.append('1')
+    rgb_value.append('1')
+    rgb_value.append('1')
 if 'extract' in fullcmd:
     type = 0
 elif 'find' in fullcmd:
@@ -153,7 +157,7 @@ if "-l" in fullcmd:
         help()
         exit()
 else:
-    l = im.height
+    l = im.width
 
 if verbose :
     print '[*] File loaded : '+f_value
@@ -168,7 +172,7 @@ def find():
     for k in range(int(n_value[0]),int(n_value[1])):
         for i in range(0, im.width):
     	    for j in range(0,l):
-    		    r,g,b = pix[i,j]
+    		    r,g,b = pix[j,i]
     		    raux = bin(r).split('b')[1]
     		    while len(raux) < 8:
     		        raux = '0'+raux
@@ -178,7 +182,7 @@ def find():
     		    baux = bin(b).split('b')[1]
     		    while len(baux) < 8:
     		        baux = '0'+baux
-    		    pixaux[i,j] = (int(raux[k:9]+'0'*k,2),int(gaux[k:9]+'0'*k,2),int(baux[k:9]+'0'*k,2))
+    		    pixaux[j,i] = (int(raux[k:9]+'0'*k,2),int(gaux[k:9]+'0'*k,2),int(baux[k:9]+'0'*k,2))
 
         imaux.save(d_value+'/decod'+str(k)+'.'+str(extension))
         if verbose:

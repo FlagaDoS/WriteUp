@@ -22,5 +22,4 @@ and I gate the flag !
 flag : tjctf{i5_th1s_c0mput3r_v1si0n?}
 ```
 
-program : [findcenter.py](file:./findcenter.py)
-
+program : [findcenter.py](./findcenter.py)

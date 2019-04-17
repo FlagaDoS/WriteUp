@@ -1,5 +1,14 @@
 #!/usr/bin/env python
 # -*- coding: utf-8 -*-
+
+
+
+# ------- Program updated at this URL
+# https://github.com/taiQui/UsefulTools
+# -------
+
+
+
 from PIL import Image
 from sys import argv,exit
 
